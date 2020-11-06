@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+using namespace std;
+
+void helloWorldFunc(int x) 
+{
+	for (int i = 0; i < x; i++)
+	{
+		cout << "Hello World!\n";
+	}
+	return;
+}
 
 int main()
 {
     std::cout << "Hello World!\n";
+	helloWorldFunc(5);
 }
-
-//EN KOMMENTAR
