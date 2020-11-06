@@ -10,7 +10,6 @@ void helloWorldFunc(int x)
 	{
 		cout << "Hello World!\n";
 	}
-	return;
 }
 
 int main()
